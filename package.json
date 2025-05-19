@@ -1,7 +1,7 @@
 {
-	"name": "@Yunitula/EngtoNepDate",
+	"name": "engtonepdate",
 	"version": "2.0.2",
-	"description": "A javascript package to convert nepali date BS (Bikram Sambat) to AD and vice-versa, calcuate age from nepali date (BS)",
+	"description": "A javascript package to convert nepali date BS (Bikram Sambat) to AD and vice-versa, calcuate age from nepali date (BS). Fixed Smdkl package till 2083",
 	"repository": "Yunitula/EngtoNepDate",
 	"main": "dist/@Yunitula/EngtoNepDate.umd.js",
 	"exports": {
