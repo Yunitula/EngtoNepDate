@@ -7,17 +7,15 @@ A javascript package to convert nepali date BS (Bikram Sambat) to AD and vice-ve
 ## Installation
 
 ```bash
-npm install @sbmdkl/nepali-date-converter
+npm install @Yunitula/EngtoNepDate
 ```
-
 ## Usage
 
 ```jsx
-const { adToBs, bsToAd, calculateAge } = require('@sbmdkl/nepali-date-converter');
+const { adToBs, bsToAd, calculateAge } = require('@Yunitula/EngtoNepDate');
 try {
 	const bsDate = adToBs('2078-03-05');
 	console.log(bsDate);
-	// to calculate age
 	const myAge = calculateAge('2070-10-10');
 	console.log(myAge);
 } catch (e) {
@@ -52,7 +50,7 @@ Date Range for English Date : 1921 AD to 2040 AD
 Date Range for Nepali Date : 1978 BS to 2099 BS
 
 ## License
-
 MIT © [Shubham Dhakal](https://github.com/sbmdkl)
+fixed the issue of 2082 https://github.com/Yunitula
 # EngtoNepDate
 Nepali-English Date Converter (Till 2082 B.S.) Convert dates between Nepali (Bikram Sambat) and English (Gregorian) calendars accurately up to 2082 B.S. Supports both directions: Nepali to English and English to Nepali.
