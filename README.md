@@ -5,12 +5,12 @@ A javascript package to convert nepali date BS (Bikram Sambat) to AD and vice-ve
 ## Installation
 
 ```bash
-npm install engtonepdateconvert
+npm install nepalidateconvert
 ```
 ## Usage
 
 ```jsx
-const { adToBs, bsToAd, calculateAge } = require('engtonepdateconvert');
+const { adToBs, bsToAd, calculateAge } = require('nepalidateconvert');
 try {
 	const bsDate = adToBs('2078-03-05');
 	console.log(bsDate);
