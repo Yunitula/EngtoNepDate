@@ -1,6 +1,6 @@
 {
 	"name": "engtonepdateconvert",
-	"version": "2.0.2",
+	"version": "3.0.1",
 	"description": "A javascript package to convert nepali date BS (Bikram Sambat) to AD and vice-versa, calcuate age from nepali date (BS). Fixed Smdkl package till 2083",
 	"repository": "Yunitula/EngtoNepDate",
 	"main": "dist/engtonepdateconvert.umd.js",
